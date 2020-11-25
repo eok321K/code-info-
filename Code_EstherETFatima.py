@@ -1,4 +1,4 @@
-##Programmes nécessaires à l'interraction avec
+#Programmes nécessaires à l'interraction avec
 ##l'utilisateur
 
 #Importation des modules nécessaires
@@ -142,7 +142,7 @@ if affichage==1:
 
 elif affichage==2:#Montrer la liste de la différence des moyennes
 # On propose 2 manières différentes pour comparer les courbes
-    possibilite=input("Avec quelle méthode voulez-vous travaillez? (taper 1 ou 2)\n 1: Calculer la différence moyenne entre les 2 courbes de deux capteurs différents.\n 2: Calculer le coefficient de corrélation entre les capteurs.\n")
+    possibilite=input("Avec quelle méthode voulez-vous travailler? (taper 1 ou 2)\n 1: Calculer la différence moyenne entre les 2 courbes de deux capteurs différents.\n 2: Calculer le coefficient de corrélation entre les capteurs.\n")
     possible=int(possibilite)
     #Calculer la différences moyenne entre les 2 courbes choisies et afficher ces courbes
     if possible==1:
@@ -172,7 +172,7 @@ elif affichage==2:#Montrer la liste de la différence des moyennes
             x = 'humidex'
             unite2="unité humidex"
 
-        nb1=input("Quels capteurs voulez vous qu'on teste leurs similarités?\n 1 :capteur 1 \n 2 :capteur 2 \n 3 :capteur 3\n 4 :capteur 4\n 5 :capteur 5\n 6 :capteur 6\n ")
+        nb1=input("Quels capteurs voulez vous utiliser pour le test de similarité?\n 1 :capteur 1 \n 2 :capteur 2 \n 3 :capteur 3\n 4 :capteur 4\n 5 :capteur 5\n 6 :capteur 6\n ")
         nb2=input("et le deuxième?\n")
 
         capt1=int(nb1)
